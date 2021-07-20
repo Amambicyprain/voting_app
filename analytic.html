@@ -54,7 +54,7 @@
     <!-- Sidebar -->
 
     <!-- Navbar -->
-    <nav id="main-navbar" class="navbar navbar-expand-lg  fixed-top" style="background-color: #4a148c;">
+    <nav id="main-navbar" class="navbar navbar-expand-lg  fixed-top mb-5" style="background-color: #4a148c;">
       <!-- Container wrapper -->
       <div class="container-fluid">
         <!-- Toggle button -->
@@ -65,7 +65,7 @@
 
         <!-- Brand -->
         <a class="navbar-brand" href="#">
-         <h3>E-VOTE</h3>
+          <img src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png" height="25" alt="" loading="lazy" />
         </a>
 
         <!-- Right links -->
@@ -144,7 +144,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#"
               id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-              <img src="img/cy.jpg" class="rounded-circle" height="15"
+              <img src="https://mdbootstrap.com/img/Photos/Avatars/img (31).jpg" class="rounded-circle" height="22"
                 alt="" loading="lazy" />
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
@@ -162,180 +162,40 @@
   <!--Main Navigation-->
 
   <!--Main layout-->
-  <main style="margin-top: 58px">
-    <div class="container pt-4">
-      <!-- Section: Main chart -->
-         <section>
-        <div class="row">
-          <div class="col-xl-3 col-sm-6 col-12 mb-4">
-            <div class="card">
+      <main>
+          <div class="card text-center " style="margin-top:80px; height: 90vh;">
               <div class="card-body">
-                <div class="d-flex justify-content-between px-md-1">
-                  <div class="align-self-center">
-                    <i class="fas fa-pencil-alt text-info fa-3x" style="color:red;"></i>
-                  </div>
-                  <div class="text-end">
-                    <h3>278</h3>
-                    <p class="mb-0">voters</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+                <h3>position</h3>
+
+                 <canvas id="chart-bar"></canvas>
           </div>
-          <div class="col-xl-3 col-sm-6 col-12 mb-4">
-            <div class="card">
-              <div class="card-body">
-                <div class="d-flex justify-content-between px-md-1">
-                  <div class="align-self-center">
-                    <i class="far fa-comment-alt text-warning fa-3x"></i>
-                  </div>
-                  <div class="text-end">
-                    <h3>156</h3>
-                    <p class="mb-0">Candidates</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-sm-6 col-12 mb-4">
-            <div class="card">
-              <div class="card-body">
-                <div class="d-flex justify-content-between px-md-1">
-                  <div class="align-self-center">
-                    <i class="fas fa-chart-line text-success fa-3x"></i>
-                  </div>
-                  <div class="text-end">
-                    <h3>64.89 %</h3>
-                    <p class="mb-0">positions</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-sm-6 col-12 mb-4">
-            <div class="card">
-              <div class="card-body">
-                <div class="d-flex justify-content-between px-md-1">
-                  <div class="align-self-center">
-                    <i class="fas fa-map-marker-alt text-danger fa-3x"></i>
-                  </div>
-                  <div class="text-end">
-                    <h3>423</h3>
-                    <p class="mb-0">polling stations</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-            <section class="mb-4">
-        <div class="card">
-          <div class="card-header text-center py-3">
-            <h5 class="mb-0 text-center">
-              <strong>Sales Performance KPIs</strong>
-            </h5>
-          </div>
-          <div class="card-body">
-            <div class="table-responsive">
-              <table class="table table-hover text-nowrap">
-                <thead>
-                  <tr>
-                    <th scope="col"></th>
-                    <th scope="col">Product Detail Views</th>
-                    <th scope="col">Unique Purchases</th>
-                    <th scope="col">Quantity</th>
-                    <th scope="col">Product Revenue</th>
-                    <th scope="col">Avg. Price</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">Value</th>
-                    <td>18,492</td>
-                    <td>228</td>
-                    <td>350</td>
-                    <td>$4,787.64</td>
-                    <td>$13.68</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Percentage change</th>
-                    <td>
-                      <span class="text-danger">
-                        <i class="fas fa-caret-down me-1"></i><span>-48.8%%</span>
-                      </span>
-                    </td>
-                    <td>
-                      <span class="text-success">
-                        <i class="fas fa-caret-up me-1"></i><span>14.0%</span>
-                      </span>
-                    </td>
-                    <td>
-                      <span class="text-success">
-                        <i class="fas fa-caret-up me-1"></i><span>46.4%</span>
-                      </span>
-                    </td>
-                    <td>
-                      <span class="text-success">
-                        <i class="fas fa-caret-up me-1"></i><span>29.6%</span>
-                      </span>
-                    </td>
-                    <td>
-                      <span class="text-danger">
-                        <i class="fas fa-caret-down me-1"></i><span>-11.5%</span>
-                      </span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Absolute change</th>
-                    <td>
-                      <span class="text-danger">
-                        <i class="fas fa-caret-down me-1"></i><span>-17,654</span>
-                      </span>
-                    </td>
-                    <td>
-                      <span class="text-success">
-                        <i class="fas fa-caret-up me-1"></i><span>28</span>
-                      </span>
-                    </td>
-                    <td>
-                      <span class="text-success">
-                        <i class="fas fa-caret-up me-1"></i><span>111</span>
-                      </span>
-                    </td>
-                    <td>
-                      <span class="text-success">
-                        <i class="fas fa-caret-up me-1"></i><span>$1,092.72</span>
-                      </span>
-                    </td>
-                    <td>
-                      <span class="text-danger">
-                        <i class="fas fa-caret-down me-1"></i><span>$-1.78</span>
-                      </span>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="mb-4">
-        <div class="card">
-          <div class="card-header py-3">
-            <h5 class="mb-0 text-center"><strong>votes</strong></h5>
-          </div>
-          <div class="card-body">
-            <canvas class="my-4 w-100" id="myChart" height="380"></canvas>
-          </div>
-        </div>
-      </section>
-  </main>
+      </main>
   <!--Main layout-->
   <!-- MDB -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Custom scripts -->
   <script type="text/javascript" src="js/admin.js"></script>
+  <script type="text/javascript">
+    
+const dataBar = {
+  type: "bar",
+  data: {
+    labels: ["candidate a", "candidate a", "candidate a", "candidate a",
+      "candidate a"
+    ],
+    datasets: [{
+      label: "votes",
+      data: [3234, 2234, 3234, 1234, 1500],
+      backgroundColor: ["rgba(246,210,249,0.6)", "rgba(238,247,237,0.6)",
+        "rgba(102,109,9,0.6)", "rgba(66,133,244,0.6)",
+        "rgba(247,220,249,0.6)"
+      ],
+    }, ],
+  },
+};
+
+new mdb.Chart(document.getElementById("chart-bar"), dataBar);
+  </script>
 
 </body>
 
